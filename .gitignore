@@ -1,0 +1,16 @@
+# Upload hasil pengguna — jangan di-commit
+uploads/profil/*
+uploads/qris/*
+uploads/bukti/*
+!uploads/**/.gitkeep
+
+# Konfigurasi lokal berisi password asli
+api/config.local.php
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini
+.idea/
+.vscode/
+*.log
